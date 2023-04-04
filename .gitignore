@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Ignore reports and screenshots in reports directory
+/reports/*.html
+/reports/*.png
+
+# Ignore config.py
+/config/config.py
+
+# Ignore credentials.py file (sensitive data: emails and passwords)
+/test_data/credentials.yml
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Ignore these files
+pages/__pycache__/
+tests/__pycache__/
